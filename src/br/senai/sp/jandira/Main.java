@@ -27,5 +27,9 @@ public class Main {
         // Exemplo Polimorfismo
 
         aluno1.passarTempo();
+
+        //Exemplo abstração
+
+        aluno1.exibirInformacao();
     }
 }

@@ -1,6 +1,6 @@
 package br.senai.sp.jandira.model;
 
-public class Pessoas {
+public class Pessoas extends Conta{
 
     private String nome;
     private int idade;
@@ -28,6 +28,12 @@ public class Pessoas {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public void exibirInformacao(){
+        System.out.println(nome);
+        System.out.println(idade);
+        System.out.println(getSaldo());
     }
 }
 
