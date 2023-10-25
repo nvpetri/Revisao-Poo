@@ -5,6 +5,10 @@ public class Pessoas {
     private String nome;
     private int idade;
 
+    public void passarTempo(){
+        System.out.println("A pessoa está passando o tempo...");
+    }
+
     public Pessoas(String nome, int idade){
         this.nome = nome;
         this.idade = idade;
